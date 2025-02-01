@@ -31,3 +31,17 @@ if (employee.performanceScore <= 90) {
     employee.promotionEligible = false
 }; // Adding new property promotionEligible with boolean value.
 console.log("Updated Employee Performance Tracking: ", employee); // Logging updated employee object to console.
+
+
+
+// Task 4 - Customer Feedback Records Scenario
+
+let feedback = [
+    {customerName: "Lee Chaeryeong", feedbackText: "Really great service.", rating: 9},
+    {customerName: "Hwang Yeji", feedbackText: "Good service but needs more inventory.", rating: 7},
+    {customerName: "Choi Jisu", feedbackText: "Always pleasant shopping here, the staff is really friendly and helpful!", rating: 10}
+]; // Declaring array feedback containing three objects with properties. 
+feedback.push(
+    {customerName: "Shin Yuna", feedbackText: "They never have the things I need.", rating: 3}
+); // Adding new feedback object to array.
+console.log("Customer Feedback Records: ", feedback); // Logging entire feedback list to console. 
